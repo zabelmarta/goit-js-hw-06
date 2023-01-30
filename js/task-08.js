@@ -12,7 +12,8 @@ function handleSubmit(e) {
     return alert("Wszystkie pola powinny zostać wypełnione!");
   }
 
-  console.log(`Email: ${email.value} Password: ${password.value}`);
+  const obj = { Email: email.value, Password: password.value };
+  console.log(obj);
 
   e.currentTarget.reset();
 }

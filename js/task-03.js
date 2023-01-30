@@ -23,8 +23,4 @@ list.insertAdjacentHTML('beforeend', animals);
   
 const pictures = document.querySelectorAll('.picture');
 
-list.style.display = 'flex';
-list.style.justifyContent = 'center';
-list.style.flexWrap = 'wrap';
-list.style.listStyle = 'none';
-list.style.gap = '40px';
+
